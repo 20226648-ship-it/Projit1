@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Baban_0819_03"/>
+        <attribute name="authors" value="baban_e"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-08-19 09:44:24 AM"/>
+        <attribute name="created" value="YmFiYW5fZTtGMTEwV1MzODsyMDI1LTA4LTE5OzA5OjI3OjIyIEFNOzI0Njc="/>
+        <attribute name="edited" value="YmFiYW5fZTtGMTEwV1MzODsyMDI1LTA4LTE5OzA5OjQ0OjI0IEFNOzE7MjU3Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sale, profit, actual" type="Real" array="False" size=""/>
+            <output expression="&quot;Enter the sale price: &quot;" newline="True"/>
+            <input variable="sale"/>
+            <output expression="&quot;Enter the purchase price: &quot;" newline="True"/>
+            <input variable="actual"/>
+            <assign variable="profit" expression="sale - actual"/>
+            <output expression="&quot;Your total profit is &quot; &amp; profit &amp; &quot;.&quot;" newline="True"/>
+            <output expression="&quot;Thank you for using this program.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

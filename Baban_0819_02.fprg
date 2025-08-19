@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Baban_0819_02"/>
+        <attribute name="authors" value="baban_e"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-08-19 09:07:45 AM"/>
+        <attribute name="created" value="YmFiYW5fZTtGMTEwV1MzODsyMDI1LTA4LTE5OzA4OjQ3OjAyIEFNOzI0NjY="/>
+        <attribute name="edited" value="YmFiYW5fZTtGMTEwV1MzODsyMDI1LTA4LTE5OzA5OjA3OjQ1IEFNOzE7MjU3OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1, num2, sum, dif, pro, quo" type="Real" array="False" size=""/>
+            <output expression="&quot;Enter the first number:&quot;" newline="True"/>
+            <input variable="num1"/>
+            <output expression="&quot;Enterr the second number:&quot;" newline="True"/>
+            <input variable="num2"/>
+            <assign variable="sum" expression="num1+num2"/>
+            <assign variable="dif" expression="num1-num2"/>
+            <assign variable="pro" expression="num1*num2"/>
+            <assign variable="quo" expression="num1/num2"/>
+            <output expression="&quot;The sum of &quot; &amp; num1 &amp; &quot; and &quot; &amp; num2 &amp; &quot; is &quot; &amp; sum &amp; &quot;.&quot;" newline="False"/>
+            <output expression="&quot; The difference of &quot; &amp;num1 &amp; &quot; and &quot; &amp; num2 &amp; &quot; is &quot; &amp; dif &amp; &quot;.&quot;" newline="False"/>
+            <output expression="&quot; The product of &quot; &amp; num1 &amp; &quot; and &quot; &amp; num2 &amp; &quot; is &quot; &amp; pro &amp; &quot;.&quot;" newline="False"/>
+            <output expression="&quot; The quotient of &quot; &amp; num1 &amp; &quot; and &quot; &amp; num2 &amp; &quot; is &quot; &amp; quo &amp; &quot;.&quot;" newline="False"/>
+        </body>
+    </function>
+</flowgorithm>

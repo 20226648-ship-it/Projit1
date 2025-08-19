@@ -1,0 +1,23 @@
+import java.util.*;
+public class Baban_0819_02{
+    public static void main(String args[]){
+        Scanner input = new Scanner(System.in);
+        double num1, num2, sum, dif, pro, quo;
+
+        System.out.print("Enter the first number:");
+        num1 = input.nextInt();
+        System.out.print("Enter the second number:");
+        num2 = input.nextInt();
+
+        sum = num1 + num2;
+        dif = num1 - num2;
+        pro = num1 * num2;
+        quo = num1 / num2;
+
+        System.out.println("The sum of " + num1 + " and " + num2 + " is " + sum + ".'");
+        System.out.println("The difference of " + num1 + " and " + num2 + " is " + dif + ".'");
+        System.out.println("The product of " + num1 + " and " + num2 + " is " + pro + ".'");
+        System.out.println("The quotient of " + num1 + " and " + num2 + " is " + quo + ".'");
+
+    }
+}

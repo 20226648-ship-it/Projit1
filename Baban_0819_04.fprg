@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Baban_0819_04"/>
+        <attribute name="authors" value="baban_e"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-08-19 10:18:21 AM"/>
+        <attribute name="created" value="YmFiYW5fZTtGMTEwV1MzODsyMDI1LTA4LTE5OzEwOjAyOjM4IEFNOzI0NTk="/>
+        <attribute name="edited" value="YmFiYW5fZTtGMTEwV1MzODsyMDI1LTA4LTE5OzEwOjE4OjIxIEFNOzE7MjU2Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1, area, volume" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter the edge&quot;" newline="True"/>
+            <input variable="num1"/>
+            <assign variable="area" expression="6*num1*num1"/>
+            <assign variable="volume" expression="num1*num1*num1"/>
+            <output expression="&quot;The surface area is &quot; &amp; area &amp; &quot; and the volume is &quot; &amp; volume &amp; &quot;.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
