@@ -1,0 +1,22 @@
+Lastname_0819_04. Create the flowchart and java code that allows the user to enter a value for one edge
+of a cube. The program calculates the surface area of the cube, and its volume. The program outputs all
+the results. Note: surface area = 6a2 and volume = a3 , where a represents the edge of a cube
+
+import java.util.*;
+public class Baban_0819_03{
+    public static void main(String args[]){
+        Scanner input = new Scanner(System.in);
+        double sale, actual, profit;
+
+        System.out.print("Enter the sale price: ");
+        sale = input.nextInt();
+        System.out.print("Enter the purchase price: ");
+        actual = input.nextInt();
+
+        profit = sale - actual;
+
+        System.out.println("Your profit is " + profit + ".");
+        System.out.println("Thank you for using this program.");
+
+    }
+}
