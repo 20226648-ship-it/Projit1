@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Baban_0826_05"/>
+        <attribute name="authors" value="baban_e"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-08-26 09:29:14 AM"/>
+        <attribute name="created" value="YmFiYW5fZTtGMTEwV1MzOTsyMDI1LTA4LTI2OzA5OjE5OjM2IEFNOzI0NzI="/>
+        <attribute name="edited" value="YmFiYW5fZTtGMTEwV1MzOTsyMDI1LTA4LTI2OzA5OjI5OjE0IEFNOzE7MjU3Nw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="cel, fah" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter the temperature in celcius: &quot;" newline="True"/>
+            <input variable="cel"/>
+            <assign variable="fah" expression="(cel*(9/5))+32"/>
+            <output expression="&quot;Therefore, &quot; &amp; cel &amp; &quot; degrees Celsius is equal to &quot; &amp; fah &amp; &quot; degrees Fahrenheit.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

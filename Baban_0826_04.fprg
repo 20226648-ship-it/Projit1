@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Baban_0826_04"/>
+        <attribute name="authors" value="baban_e"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-08-26 08:43:02 AM"/>
+        <attribute name="created" value="YmFiYW5fZTtGMTEwV1MzOTsyMDI1LTA4LTI2OzA4OjI3OjA3IEFNOzI0Njg="/>
+        <attribute name="edited" value="YmFiYW5fZTtGMTEwV1MzOTsyMDI1LTA4LTI2OzA4OjQzOjAyIEFNOzE7MjU2OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="base, height, area, s1, s2, s3, perimeter" type="Real" array="False" size=""/>
+            <output expression="&quot;Triangle shape&quot;" newline="True"/>
+            <output expression="&quot;Enter the base:&quot;" newline="True"/>
+            <input variable="base"/>
+            <output expression="&quot;Enter the height:&quot;" newline="True"/>
+            <input variable="height"/>
+            <assign variable="Area" expression="(1/2)*base*height"/>
+            <output expression="&quot;Area: &quot; &amp; Area" newline="True"/>
+            <output expression="&quot;Enter the first side: &quot;" newline="True"/>
+            <input variable="s1"/>
+            <output expression="&quot;Enter the second side: &quot;" newline="True"/>
+            <input variable="s2"/>
+            <output expression="&quot;Enter the third side: &quot;" newline="True"/>
+            <input variable="s3"/>
+            <assign variable="Perimeter" expression="s1+s2+s3"/>
+            <output expression="&quot;Perimeter:&quot; &amp; Perimeter" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
